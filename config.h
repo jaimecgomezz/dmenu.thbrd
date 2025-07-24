@@ -5,7 +5,7 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static int fuzzy = 1;                       /* -F  option; if 0, dmenu doesn't use fuzzy matching */
 static int incremental = 0;                 /* -r  option; if 1, outputs text each time a key is pressed */
 static int instant = 0;                     /* -n  option; if 1, selects matching item without the need to press enter */
-static int center = 0;                      /* -c  option; if 0, dmenu won't be centered on the screen */
+static int center = 1;                      /* -c  option; if 0, dmenu won't be centered on the screen */
 static int min_width = 500;                 /* minimum width when centered */
 static int restrict_return = 0;             /* -1 option; if 1, disables shift-return and ctrl-return */
 /* -fn option overrides fonts[0]; default X11 font or font set */
